@@ -10,6 +10,8 @@
 }
 
 #body {
+  height: 100vh;
+  /* 윈도우를 기준으로 측정하는 높이단위 */
   width: 1024px;
   margin: 0 auto; /* 가운데 정렬됨. */
 }
@@ -82,4 +84,9 @@
 }
 .product-avatar {
   width: 24px;
+}
+
+.product-link {
+  color: inherit;
+  text-decoration: none;
 }
