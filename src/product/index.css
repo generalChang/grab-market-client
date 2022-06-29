@@ -42,9 +42,15 @@
 }
 #product-desc {
   margin-top: 16px;
+  font-size: 16px;
 }
 
 #createdAt {
   font-size: 12px;
   color: rgb(204, 204, 204);
+}
+
+#purchase-button {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
