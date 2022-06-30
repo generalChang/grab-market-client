@@ -21,7 +21,8 @@ body,
 #body {
   /* height: 100vh; */
   /* 윈도우를 기준으로 측정하는 높이단위 */
-  width: 1024px;
+  max-width: 1024px;
+  width: 100%;
   margin: 0 auto; /* 가운데 정렬됨. */
 }
 
@@ -31,6 +32,7 @@ body,
 }
 
 #header-area {
+  max-width: 1024px;
   width: 1024px;
   height: 100%;
   display: flex;
@@ -49,4 +51,22 @@ body,
   color: white;
   border: none;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .product-card {
+    width: 160px !important;
+  }
+
+  #header {
+    padding: 0 8px;
+  }
+
+  #body {
+    padding: 0 8px;
+  }
+
+  .ant-carousel {
+    margin: 0 -8px;
+  }
 }

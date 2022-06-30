@@ -58,8 +58,8 @@ function ProductPage() {
           size="large"
           id="purchase-button"
           type="primary"
-          danger
           onClick={onClickPurchase}
+          danger
           disabled={product.soldout === 1}
         >
           구매하기
